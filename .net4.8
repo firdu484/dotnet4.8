@@ -1,0 +1,32 @@
+using System;
+
+namespace DotNet48Sample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Welcome message
+            Console.WriteLine("Welcome to .NET Framework 4.8 Sample!");
+
+            // Get user input
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            // Print greeting
+            Console.WriteLine($"Hello, {name}!");
+
+            // Perform a simple calculation
+            int a = 5;
+            int b = 3;
+            int sum = a + b;
+
+            // Print the result
+            Console.WriteLine($"The sum of {a} and {b} is: {sum}");
+
+            // Wait for user to press a key before exiting
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
+    }
+}
